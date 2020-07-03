@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.timerRow {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.optionsRow {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.button {
+  flex: .5;
+  padding: .5rem;
+  margin-right: .5rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.button:hover {
+  border: 1px solid #999;
+  cursor: pointer;
+}
